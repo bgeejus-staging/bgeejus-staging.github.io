@@ -1,1 +1,53 @@
-JY <3 MY
+<html>
+	<head>
+		Please enter 2 numbers in the boxes below.
+		<script type="text/javascript">
+			var a,b;
+			function setValues() {
+				a = Number(document.getElementById("a").value);
+				b = Number(document.getElementById("b").value);
+			}
+			function sum() {
+				setValues();
+				result = a+b;
+				alert("The sum is equals to "+result);
+			}
+			function rest(){
+				setValues();
+				result = a-b;
+				alert("The rest is equals to "+result);
+			}
+			function multiply(){
+				setValues();
+				result = a*b;
+				alert("The multiply is equals to "+result);
+			}
+			function divide(){
+				setValues();
+				result = a/b;
+				alert("The multiply is equals to "+result);
+			}
+
+		</script>
+	</head>
+	<body>
+		<script type = "text/javascript">
+			alert("Good morning Yeobong~");
+			alert("Do you know.....");
+			alert("I love you? :)")
+			alert("<3 <3 <3")
+
+			var img = new Image();
+			var div = document.getElementById('foo');
+		</script>
+
+		<div>
+			<input id="a" type="text"/>
+			<input id="b" type="text"/>
+			<input type="button" onclick="sum()" value="sum"/>
+			<input type="button" onclick="rest()" value="rest"/>
+			<input type="button" onclick="mult()" value="multiply"/>
+			<input type="button" onclick="div()" value="divide"/>
+		</div>
+	</body>
+</html>
